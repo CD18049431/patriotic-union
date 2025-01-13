@@ -1,0 +1,75 @@
+
+h1{
+    color: brown;
+    text-align: center;
+} 
+
+/*all unordered lists properties*/
+ ul
+ {  list-style-type: none;
+    margin: none;
+    padding: none;
+    width: 100px;
+    background-color: rgb(192, 220, 243);
+    text-align: left;
+                                                                                                                    
+ }
+ img{
+    border: 5px solid #555;
+ }
+/* center align elements to prevent from stretching out of its container*/ 
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    /*display img in center*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+/* navigation menu activation and properties*/    
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+li a:hover {
+    background-color: aliceblue;
+    color: rgb(241, 178, 226);
+    text-align: center;
+}
+	.active {
+        background-color: antiquewhite;
+        color: rgb(240, 185, 185);
+    }
+h3{
+    color: blue;
+    text-align: center;
+}
+/*all body properties*/
+body
+{
+    background-color: rgb(204, 224, 241);
+    margin: auto;
+    width: 1000px;
+    font-family: Arial;
+    font-size: large;
+    color: black;
+    
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: darkslategrey;
+    color: white;
+
+}
